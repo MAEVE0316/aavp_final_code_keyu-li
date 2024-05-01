@@ -1,0 +1,529 @@
+{
+	"archiveVersion": "1",
+	"classes": {},
+	"objectVersion": "54",
+	"objects": {
+		"053A6230-ED39-4AB6-ADCF-346B55954D6E": {
+			"fileRef": "325B073E-1BF2-4056-8D23-EF46CC6EA0F8",
+			"isa": "PBXBuildFile"
+		},
+		"18FD1CF2-2325-47AC-9965-63CAB7068C7E": {
+			"explicitFileType": "sourcecode.c.c",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "stb_vorbis.c",
+			"path": "../../../addons/ofxMaxim/libs/stb_vorbis.c",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"191CD6FA2847E21E0085CBB6": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.entitlements",
+			"path": "of.entitlements",
+			"sourceTree": "<group>"
+		},
+		"191EF70929D778A400F35F26": {
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "folder",
+			"name": "openFrameworks",
+			"path": "../../../libs/openFrameworks",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"19B789C429E5AB4A0082E9B8": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputFileListPaths": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"outputFileListPaths": [],
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "\"$OF_PATH/scripts/osx/xcode_project.sh\"\n",
+			"showEnvVarsInLog": "0"
+		},
+		"1AA97A5F-99CF-4A92-8405-BB3785921155": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiAtoms.h",
+			"path": "../../../addons/ofxMaxim/libs/maxiAtoms.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"1C08BAEC-A962-4B3F-B396-D74109FF0AD6": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "stb_vorbis.h",
+			"path": "../../../addons/ofxMaxim/libs/stb_vorbis.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"1F54108F-F3D6-42D0-8ABB-21DB6161A776": {
+			"children": [
+				"378D4605-E911-4075-8931-E59B1930B39E"
+			],
+			"isa": "PBXGroup",
+			"name": "src",
+			"path": "../../../addons/ofxMaxim/src",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2A13F2F3-9318-4718-A7B4-234D96027EEC": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiBark.cpp",
+			"path": "../../../addons/ofxMaxim/libs/maxiBark.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"2E44ECDD-A18E-4099-9BE7-1C2E4B2DEF3D": {
+			"fileRef": "18FD1CF2-2325-47AC-9965-63CAB7068C7E",
+			"isa": "PBXBuildFile"
+		},
+		"325B073E-1BF2-4056-8D23-EF46CC6EA0F8": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiMFCC.cpp",
+			"path": "../../../addons/ofxMaxim/libs/maxiMFCC.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"378D4605-E911-4075-8931-E59B1930B39E": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofxMaxim.h",
+			"path": "../../../addons/ofxMaxim/src/ofxMaxim.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"37CF9064-0C97-4D3E-9EC1-244233A4DD20": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "sineTable.h",
+			"path": "../../../addons/ofxMaxim/libs/sineTable.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"47594523-2171-458F-B78A-4F79356165A1": {
+			"fileRef": "E2B79F20-EF71-417A-BE34-2A6874FC2341",
+			"isa": "PBXBuildFile"
+		},
+		"50BB84B7-4750-4FC9-A7BA-D2090F2F1C58": {
+			"fileRef": "F5D40E87-D1BA-4837-895E-DC956C1BFD47",
+			"isa": "PBXBuildFile"
+		},
+		"5205CA34-AA4B-4051-992A-8FAF43090E22": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maximilian.h",
+			"path": "../../../addons/ofxMaxim/libs/maximilian.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"6152A565-90CE-4A2A-B37A-23B55CC616A9": {
+			"fileRef": "2A13F2F3-9318-4718-A7B4-234D96027EEC",
+			"isa": "PBXBuildFile"
+		},
+		"680501AD-AC9C-4216-A5C3-236F13D50349": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maximilian.cpp",
+			"path": "../../../addons/ofxMaxim/libs/maximilian.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"6D37DA81-C638-4DB4-9215-D10D1E56A673": {
+			"fileRef": "89431317-E406-4303-AD37-9DE25B6D1285",
+			"isa": "PBXBuildFile"
+		},
+		"72206226-EE0E-4E12-A24E-99061643CC58": {
+			"fileRef": "680501AD-AC9C-4216-A5C3-236F13D50349",
+			"isa": "PBXBuildFile"
+		},
+		"75DD2CEA-FF97-4724-823E-74F60D18A88C": {
+			"children": [
+				"A9A16AB2-84A8-4CCC-A7EC-B684D7CA2689",
+				"1F54108F-F3D6-42D0-8ABB-21DB6161A776"
+			],
+			"isa": "PBXGroup",
+			"name": "ofxMaxim",
+			"path": "../../../addons/ofxMaxim",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"81B30D44-1FB7-406F-A1FA-9497D484DC91": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiGrains.cpp",
+			"path": "../../../addons/ofxMaxim/libs/maxiGrains.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"89431317-E406-4303-AD37-9DE25B6D1285": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "fft.cpp",
+			"path": "../../../addons/ofxMaxim/libs/fft.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"967E20A7-5D49-4620-A4CB-4528828565B3": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiBark.h",
+			"path": "../../../addons/ofxMaxim/libs/maxiBark.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"9FE2786C-0A23-4628-A93D-97BB53476F67": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiGrains.h",
+			"path": "../../../addons/ofxMaxim/libs/maxiGrains.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"A9A16AB2-84A8-4CCC-A7EC-B684D7CA2689": {
+			"children": [
+				"89431317-E406-4303-AD37-9DE25B6D1285",
+				"AC5A8D5D-73AA-46ED-9900-7A1A8E2EE563",
+				"E2B79F20-EF71-417A-BE34-2A6874FC2341",
+				"1AA97A5F-99CF-4A92-8405-BB3785921155",
+				"2A13F2F3-9318-4718-A7B4-234D96027EEC",
+				"967E20A7-5D49-4620-A4CB-4528828565B3",
+				"F5D40E87-D1BA-4837-895E-DC956C1BFD47",
+				"B034560E-F43B-4EC0-B227-2228728C0CB4",
+				"81B30D44-1FB7-406F-A1FA-9497D484DC91",
+				"9FE2786C-0A23-4628-A93D-97BB53476F67",
+				"325B073E-1BF2-4056-8D23-EF46CC6EA0F8",
+				"E21640F4-681F-4541-8225-7BFC730A429D",
+				"680501AD-AC9C-4216-A5C3-236F13D50349",
+				"5205CA34-AA4B-4051-992A-8FAF43090E22",
+				"37CF9064-0C97-4D3E-9EC1-244233A4DD20",
+				"18FD1CF2-2325-47AC-9965-63CAB7068C7E",
+				"1C08BAEC-A962-4B3F-B396-D74109FF0AD6"
+			],
+			"isa": "PBXGroup",
+			"name": "libs",
+			"path": "../../../addons/ofxMaxim/libs",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"AC5A8D5D-73AA-46ED-9900-7A1A8E2EE563": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "fft.h",
+			"path": "../../../addons/ofxMaxim/libs/fft.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"B034560E-F43B-4EC0-B227-2228728C0CB4": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiFFT.h",
+			"path": "../../../addons/ofxMaxim/libs/maxiFFT.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"BB4B014C10F69532006C3DED": {
+			"children": [
+				"75DD2CEA-FF97-4724-823E-74F60D18A88C"
+			],
+			"isa": "PBXGroup",
+			"name": "addons",
+			"path": "../../../addons",
+			"sourceTree": "<group>"
+		},
+		"DF403F11-3A8A-41D9-B8B5-4F39D785495B": {
+			"fileRef": "81B30D44-1FB7-406F-A1FA-9497D484DC91",
+			"isa": "PBXBuildFile"
+		},
+		"E21640F4-681F-4541-8225-7BFC730A429D": {
+			"explicitFileType": "sourcecode.c.h",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiMFCC.h",
+			"path": "../../../addons/ofxMaxim/libs/maxiMFCC.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E2B79F20-EF71-417A-BE34-2A6874FC2341": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiAtoms.cpp",
+			"path": "../../../addons/ofxMaxim/libs/maxiAtoms.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E42962A92163ECCD00A6A9E2": {
+			"alwaysOutOfDate": "1",
+			"buildActionMask": "2147483647",
+			"files": [],
+			"inputPaths": [],
+			"isa": "PBXShellScriptBuildPhase",
+			"name": "Run Script — Compile OF",
+			"outputPaths": [],
+			"runOnlyForDeploymentPostprocessing": "0",
+			"shellPath": "/bin/sh",
+			"shellScript": "echo \"💾 Compiling Openframeworks\"\nxcodebuild -project \"$OF_PATH/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj\" -target openFrameworks -configuration \"${CONFIGURATION}\"  CLANG_CXX_LANGUAGE_STANDARD=$CLANG_CXX_LANGUAGE_STANDARD MACOSX_DEPLOYMENT_TARGET=$MACOSX_DEPLOYMENT_TARGET GCC_PREPROCESSOR_DEFINITIONS=$USER_PREPROCESSOR_DEFINITIONS\n",
+			"showEnvVarsInLog": "0"
+		},
+		"E4A5B60F29BAAAE400C2D356": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "6",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B4A0A3A1720003C02F2": {
+			"children": [
+				"191CD6FA2847E21E0085CBB6",
+				"E4B6FCAD0C3E899E008CF71C",
+				"E4EB6923138AFD0F00A09F29",
+				"E4B69E1C0A3A1BDC003C02F2",
+				"191EF70929D778A400F35F26",
+				"BB4B014C10F69532006C3DED",
+				"E4B69B5B0A3A1756003C02F2"
+			],
+			"isa": "PBXGroup",
+			"sourceTree": "<group>"
+		},
+		"E4B69B4C0A3A1720003C02F2": {
+			"attributes": {
+				"LastUpgradeCheck": "0600"
+			},
+			"buildConfigurationList": "E4B69B4D0A3A1720003C02F2",
+			"compatibilityVersion": "Xcode 3.2",
+			"developmentRegion": "en",
+			"hasScannedForEncodings": "0",
+			"isa": "PBXProject",
+			"knownRegions": [
+				"en",
+				"Base"
+			],
+			"mainGroup": "E4B69B4A0A3A1720003C02F2",
+			"productRefGroup": "E4B69B4A0A3A1720003C02F2",
+			"projectDirPath": "",
+			"projectRoot": "",
+			"targets": [
+				"E4B69B5A0A3A1756003C02F2"
+			]
+		},
+		"E4B69B4D0A3A1720003C02F2": {
+			"buildConfigurations": [
+				"E4B69B4E0A3A1720003C02F2",
+				"E4B69B4F0A3A1720003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B4E0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "NO",
+				"ENABLE_TESTABILITY": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "0",
+				"GCC_WARN_UNUSED_VARIABLE": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B4F0A3A1720003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"CODE_SIGN_ENTITLEMENTS": "of.entitlements",
+				"COPY_PHASE_STRIP": "YES",
+				"GCC_OPTIMIZATION_LEVEL": "3",
+				"GCC_UNROLL_LOOPS": "YES",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src"
+				],
+				"OTHER_CPLUSPLUSFLAGS": "-D__MACOSX_CORE__"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69B580A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [
+				"E4B69E200A3A1BDC003C02F2",
+				"E4B69E210A3A1BDC003C02F2",
+				"6D37DA81-C638-4DB4-9215-D10D1E56A673",
+				"47594523-2171-458F-B78A-4F79356165A1",
+				"6152A565-90CE-4A2A-B37A-23B55CC616A9",
+				"50BB84B7-4750-4FC9-A7BA-D2090F2F1C58",
+				"DF403F11-3A8A-41D9-B8B5-4F39D785495B",
+				"053A6230-ED39-4AB6-ADCF-346B55954D6E",
+				"72206226-EE0E-4E12-A24E-99061643CC58",
+				"2E44ECDD-A18E-4099-9BE7-1C2E4B2DEF3D"
+			],
+			"isa": "PBXSourcesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B590A3A1756003C02F2": {
+			"buildActionMask": "2147483647",
+			"files": [],
+			"isa": "PBXFrameworksBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4B69B5A0A3A1756003C02F2": {
+			"buildConfigurationList": "E4B69B5F0A3A1757003C02F2",
+			"buildPhases": [
+				"E42962A92163ECCD00A6A9E2",
+				"E4B69B580A3A1756003C02F2",
+				"E4B69B590A3A1756003C02F2",
+				"E4C2427710CC5ABF004149E2",
+				"E4A5B60F29BAAAE400C2D356",
+				"19B789C429E5AB4A0082E9B8"
+			],
+			"buildRules": [],
+			"dependencies": [],
+			"isa": "PBXNativeTarget",
+			"name": "footage6",
+			"productName": "myOFApp",
+			"productReference": "E4B69B5B0A3A1756003C02F2",
+			"productType": "com.apple.product-type.application"
+		},
+		"E4B69B5B0A3A1756003C02F2": {
+			"explicitFileType": "wrapper.application",
+			"includeInIndex": "0",
+			"isa": "PBXFileReference",
+			"path": "footage6Debug.app",
+			"sourceTree": "BUILT_PRODUCTS_DIR"
+		},
+		"E4B69B5F0A3A1757003C02F2": {
+			"buildConfigurations": [
+				"E4B69B600A3A1757003C02F2",
+				"E4B69B610A3A1757003C02F2"
+			],
+			"defaultConfigurationIsVisible": "0",
+			"defaultConfigurationName": "Release",
+			"isa": "XCConfigurationList"
+		},
+		"E4B69B600A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "NO",
+				"FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+				"GCC_DYNAMIC_NO_PIC": "NO",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"../../../addons/ofxMaxim/libs",
+					"../../../addons/ofxMaxim/src"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF_DEBUG)"
+				]
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Debug"
+		},
+		"E4B69B610A3A1757003C02F2": {
+			"baseConfigurationReference": "E4EB6923138AFD0F00A09F29",
+			"buildSettings": {
+				"ARCHS": "$(ARCHS_STANDARD)",
+				"COPY_PHASE_STRIP": "YES",
+				"FRAMEWORK_SEARCH_PATHS": "$(inherited)",
+				"HEADER_SEARCH_PATHS": [
+					"$(OF_CORE_HEADERS)",
+					"src",
+					"../../../addons/ofxMaxim/libs",
+					"../../../addons/ofxMaxim/src"
+				],
+				"LIBRARY_SEARCH_PATHS": "$(inherited)",
+				"OTHER_LDFLAGS": [
+					"$(OF_CORE_LIBS)",
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(LIB_OF)"
+				],
+				"baseConfigurationReference": "E4EB6923138AFD0F00A09F29"
+			},
+			"isa": "XCBuildConfiguration",
+			"name": "Release"
+		},
+		"E4B69E1C0A3A1BDC003C02F2": {
+			"children": [
+				"E4B69E1D0A3A1BDC003C02F2",
+				"E4B69E1E0A3A1BDC003C02F2",
+				"E4B69E1F0A3A1BDC003C02F2"
+			],
+			"isa": "PBXGroup",
+			"path": "src",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1D0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.cpp.cpp",
+			"name": "main.cpp",
+			"path": "src/main.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1E0A3A1BDC003C02F2": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "ofApp.cpp",
+			"path": "src/ofApp.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E1F0A3A1BDC003C02F2": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "sourcecode.c.h",
+			"name": "ofApp.h",
+			"path": "src/ofApp.h",
+			"sourceTree": "SOURCE_ROOT"
+		},
+		"E4B69E200A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1D0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B69E210A3A1BDC003C02F2": {
+			"fileRef": "E4B69E1E0A3A1BDC003C02F2",
+			"isa": "PBXBuildFile"
+		},
+		"E4B6FCAD0C3E899E008CF71C": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.plist.xml",
+			"path": "openFrameworks-Info.plist",
+			"sourceTree": "<group>"
+		},
+		"E4C2427710CC5ABF004149E2": {
+			"buildActionMask": "2147483647",
+			"dstPath": "",
+			"dstSubfolderSpec": "10",
+			"files": [],
+			"isa": "PBXCopyFilesBuildPhase",
+			"runOnlyForDeploymentPostprocessing": "0"
+		},
+		"E4EB6923138AFD0F00A09F29": {
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"lastKnownFileType": "text.xcconfig",
+			"path": "Project.xcconfig",
+			"sourceTree": "<group>"
+		},
+		"F5D40E87-D1BA-4837-895E-DC956C1BFD47": {
+			"explicitFileType": "sourcecode.cpp.cpp",
+			"fileEncoding": "4",
+			"isa": "PBXFileReference",
+			"name": "maxiFFT.cpp",
+			"path": "../../../addons/ofxMaxim/libs/maxiFFT.cpp",
+			"sourceTree": "SOURCE_ROOT"
+		}
+	},
+	"openFrameworksProjectGeneratorVersion": "21",
+	"rootObject": "E4B69B4C0A3A1720003C02F2"
+}
